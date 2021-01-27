@@ -1,0 +1,24 @@
+label {
+    vertical-align: top;
+    font: .8em sans-serif;
+}
+
+input, textarea {
+    display : block;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 100%;
+    height  : 90%;
+    border-right: 1px solid;
+    /* resize  : none; */
+    overflow: auto;
+}
+
+button {
+    padding      : 5px;
+    font         : .8em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+}
